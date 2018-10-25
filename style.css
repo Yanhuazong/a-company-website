@@ -1,0 +1,299 @@
+body{
+    height:auto;
+    padding-bottom: 50px;
+}
+.header{
+    width:100%;
+    background-color: #d1e5d8;
+    position:fixed;
+    top:0;
+    left:0;
+    
+}
+.navbar{
+    width:950px;
+    height:130px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.display{
+	position:fixed;
+	top:10px;
+	width:100%;
+	padding-top:10px;
+    height:20px;
+    overflow: hidden;
+    color:white;
+ 	text-align:right;
+    font-size: 15px;
+    }
+
+.nav{
+    list-style: none;
+    float:right;
+     padding-top: 60px;
+    margin-right: 5px;
+}
+.nav li{
+    display: inline; 
+}
+.nav li a{
+     
+     color: #555;
+    text-align: center;
+    padding: 12px 16px;
+    font-size:20px;
+    text-decoration: none;
+     box-shadow: 0 0 20px 0px #a6b99a;
+}
+.nav li a:hover:not(.active){
+    color:white;
+    background-color: #5daa1b;
+}
+.active {
+    color:white;
+    background-color: #5daa1b; 
+  
+}
+.body{
+    background-color: #5daa1b;
+    position:fixed;
+    top:110px;
+    left:0;
+    width:100%;
+   height: 100%;
+    overflow: scroll;
+    text-align: center;
+    color:white;
+}
+p{
+    font-size: 50px;
+    padding:50px;
+}
+#notlogin{
+    font-size: 30px;
+    padding:50px;
+}
+.message{
+    font-size:20px;
+    
+}
+#indexerrorMsgregister{
+    font-size:20px;
+    color:red;
+}
+form {
+    display: block;
+    margin-top: 0px;
+
+}
+fieldset#info {
+    margin: 60px auto;
+    padding: 10px;
+    width:380px;
+    height:200px;
+    text-align: center;
+}
+#login {
+    list-style: none;
+    padding-left:0px;
+    
+}
+#login li{
+    padding:20px;
+   
+}
+legend{
+    font-size: 20px;
+    float:none;
+    
+}
+#login li label{
+     float:left;
+}
+#login li input{
+     float:right;
+}
+#SubmitBtn{
+    width:100px;
+    font-size: 15px;
+    float:right;
+   margin-right: 20px;
+}
+#SubmitBtnregister{
+    width:243px;
+    font-size: 15px;
+    float:right;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+#errorMsg{
+    color:#ff0000; 
+    font-weight:bold; 
+    font-size:12pt;
+    padding:10px;
+}
+#errorMsgregister{
+    color:#ff0000; 
+    font-weight:bold; 
+    font-size:12pt;
+    padding:10px;
+   width:100%;
+   display:block;
+    text-align: right;
+}
+fieldset#register {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:400px;
+    text-align: center;
+}
+#registerul{
+    list-style: none;
+    padding-left:0px;
+    height:260px;
+    
+}
+#registerul li{
+    width:100%;
+   height:1%;
+    display:block;
+    
+}
+#registerul li label{
+     float:left;
+    padding:3px;
+    margin-top:11px;
+    
+}
+#usernameAvailability{
+    float:right; 
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:0px;
+   width:100%;
+    display:none; 
+    color:#6666ff;
+    background-color: #eeffff;
+    background-color: white;
+    font-size:13px;
+    padding:3px;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+    }
+#registerul li input{
+    float:right;
+    padding:3px;
+	width:233px;
+    margin-top:10px;
+    margin-right:0px;
+}
+#option{
+    float:right;
+    padding:3px;
+	width:243px;
+    margin-top:10px;
+    margin-right:0px;
+	border-width:2px;
+}
+
+
+fieldset#shipping {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: auto;
+
+    padding: 10px;
+	padding-right:30px;
+    width:400px;    
+    text-align: center;
+}
+#shippingul{
+    list-style: none;
+    padding-left:0px;
+    
+}
+#shippingul li{
+    padding:15px;
+   
+}
+#shippingul li label{
+     float:left;
+}
+#shippingul li input{
+	
+     float:right;
+}
+.oldshipping{
+    background-color: white;
+    color:#555;
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 300px;
+    height:100px;
+}
+#Boption{
+   width:244px;
+    border-width:2px;
+	float:right;
+}
+#BSubmitBtn{
+    width:180px;
+    float:right;
+    margin-right:15px;
+}
+
+fieldset#billing {
+      margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: auto;
+
+    padding: 10px;
+	padding-right:30px;
+    width:400px;    
+    text-align: center;
+}
+#billingul{
+    list-style: none;
+    padding-left:0px;
+    
+}
+#billingul li{
+    padding:15px;
+   
+}
+#billingul li label{
+     float:left;
+}
+#billingul li input{
+     float:right;
+	width:240px;
+}
+table{
+    border: 2px solid threedface;
+	position:relative;
+	top:30px;
+}
+.oldbilling{
+    background-color: white;
+    color:#555;
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 300px;
+    height:100px;
+}
+h2{
+    margin-top:100px;
+}
+.screenleft{
+	float:left;
+	
+}
+.screenright{
+	float:right;
+	width:50%;
+}
